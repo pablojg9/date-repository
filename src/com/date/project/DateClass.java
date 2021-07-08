@@ -19,8 +19,11 @@ public class DateClass {
 
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
-        System.out.println(simpleDateFormat.format(date));
+        System.out.println("Data atual: " + simpleDateFormat.format(date));
 
+
+        SimpleDateFormat simpleDateFormat1 = new SimpleDateFormat("yyyy/MM/dd");
+        System.out.println("Segunda data atual convertido: " + simpleDateFormat1.format(date));
 
     }
 }
