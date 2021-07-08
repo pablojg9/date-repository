@@ -1,5 +1,6 @@
 package com.date.project;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateClass {
@@ -13,6 +14,13 @@ public class DateClass {
 
         System.out.println("Minutos em hora: " + date.getMinutes());
         System.out.println("segundos: " + date.getSeconds());
+
+        // Simple Date Format
+
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
+
+        System.out.println(simpleDateFormat.format(date));
+
 
     }
 }
