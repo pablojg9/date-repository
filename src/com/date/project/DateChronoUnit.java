@@ -1,11 +1,8 @@
 package com.date.project;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
-import java.util.Calendar;
-import java.util.Date;
 
 
 public class DateChronoUnit {
@@ -15,7 +12,6 @@ public class DateChronoUnit {
         long dias = ChronoUnit.DAYS.between(LocalDate.parse("2021-07-01"), LocalDate.now());
 
         System.out.println("Possui " + dias + " dias durante o dia " + LocalDate.now());
-
 
     }
 
